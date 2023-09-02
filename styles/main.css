@@ -1,0 +1,177 @@
+.main{
+    color: white;
+}
+
+.main_title{
+    margin-top: 162px;
+    font-size: 62px;
+    font-family: RobotoT, sans-serif;
+    margin-bottom: 0;
+}
+
+.main_features, 
+.main_content, 
+.main_gallery, 
+.main_partners, 
+.main_testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+/*FEATURES*/
+.main_subtitle{
+    margin-top: 27px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: RobotoT, sans-serif;
+    width: 40%;
+    text-align: center;
+}
+
+.main_image{
+    margin-top: 35px;
+    display: flex;
+}
+
+.main_image ul{
+    padding: 0;
+    margin-top:0;
+}
+
+.main_image ul li{
+    list-style-type: none;
+    margin-top: 35px;
+}
+
+.main_image ul li:first-child{
+    margin-top:0;
+}
+
+.main_li_header{
+    display:flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: RobotoT, sans-serif;
+}
+
+.main_li_footer{
+    display: inline-block;
+    margin-top: 20px;
+    width: 200px;
+    font-family: RobotoL, sans-serif;
+}
+
+.main_li_header img{
+    margin-right: 13px;
+}
+
+/*CONTENT*/ 
+
+.main_cards{
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+    margin-right: -40px;
+}
+
+.main_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 530px;
+    width: 35%;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px; 
+    padding: 40px 35px;
+    margin-right: 40px;
+}
+
+.main_card h1{
+    margin:0;
+    color: black;
+    font-size: 20px;
+    font-family: RobotoS, sans-serif;
+    text-align: center; 
+}
+
+.main_card h5{
+    margin:0;
+    color: #5C5C5C;
+    font-size: 17px;
+    font-family: RobotoS, sans-serif;
+    text-align: center; 
+}
+
+.main_card_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*GALLERY*/
+
+.gallery_first_row, .gallery_second_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.gallery_section img{
+    border-radius: 12px;
+    margin-bottom: 44px;
+    margin-right: 33px;
+}
+
+/*PARTNERS*/
+
+.partners_images img{
+    margin-right: 74px;
+}
+
+.partners_images{
+    margin-top: 54px;
+    margin-right: -74px;
+    margin-bottom: 54px;        
+}
+
+/*TESTIMONIALS*/
+
+.testimonials{
+    margin-top: 50px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;      
+}
+
+.testimonial{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 40px;
+    width: 430px;  
+    margin-bottom: 20px;
+    margin-right: 23px; 
+}
+
+.testimonial_title{
+    display:flex;   
+    margin-bottom: 30px;
+}
+
+.testimonial_title img{
+    margin-right: 23px; 
+}
+
+.testimonial_name,
+.testimonial_job,
+.testimonial_content{
+    font-family: RobotoB, sans-serif;   
+}
+
+.testimonial_job{
+    margin-top: 6px;        
+}
